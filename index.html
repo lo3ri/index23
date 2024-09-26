@@ -5,10 +5,16 @@
     <style>
         .column{
         box-shadow: 10px 10px;
-        border-radius: 25px;
         float: left;
         width: 40%;
-        padding: 15px;
+        padding: 100px;
+        overflow: hidden;
+        }
+        .column.middle{
+        width: 40%;
+        }
+        .column.side{
+        width: 30%;
         }
         .column:hover {
         transform: translate(0px, 50px);
@@ -24,7 +30,7 @@
 </head>
 
 <div class="row">
-    <div class="column" style="width:40%">
+    <div class="column side">
       <h2>Column</h2>
       <p>godblessgodblessgodblessgodblessgodblessgodblessgodblessgodbless
         godblessgodblessgodblessgodblessgodblessgodblessgodblessgodbless
@@ -33,7 +39,7 @@
         godblessgodblessgodblessgodblessgodblessgodblessgodblessgodbless</p>
     </div>
 <div class="row">
-    <div class="column" style="width:40%">
+    <div class="column middle">
       <h2>Column</h2>
       <p>godblessgodblessgodblessgodblessgodblessgodblessgodblessgodbless
         godblessgodblessgodblessgodblessgodblessgodblessgodblessgodbless
